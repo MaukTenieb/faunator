@@ -1,0 +1,9 @@
+{
+  // Relais FaunaTor : le dépôt se déploie sur Cloudflare comme un Worker (faunator-worker.js), sans fichiers statiques.
+  // Le site FaunaTor lui-même reste servi par GitHub Pages.
+  "name": "faunator",
+  "main": "faunator-worker.js",
+  "compatibility_date": "2026-10-23",
+  "workers_dev": true,
+  "preview_urls": false
+}
